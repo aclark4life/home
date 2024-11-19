@@ -203,7 +203,7 @@
           <a class="logo" href="https://www.djangoproject.com/" target="_blank" rel="noopener">
             django
           </a>
-          <p>{% blocktranslate %}View <a href="https://docs.djangoproject.com/en/{{ version }}/releases/" target="_blank" rel="noopener">release notes</a> for Django {{ version }}{% endblocktranslate %}</p>
+          <a href="{% url 'admin:index' %}" target="_blank" rel="noopener">Django administration</a>
       </header>
       <main>
         <svg class="figure" viewBox="0 0 508 268" aria-hidden="true">
